@@ -33,5 +33,5 @@ st.pyplot(fig)
 st.write("### 🔍 البحث في التعليقات")
 keyword = st.text_input("أدخل كلمة للبحث:")
 if keyword:
-    filtered = df[df["التعليق"].str.contains(keyword, case=False, na=False)]
+    filtered = df[df["التعليق"].str.contains(keyword, case=False, na=False)
     st.dataframe(filtered)
