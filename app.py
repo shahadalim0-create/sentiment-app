@@ -13,7 +13,7 @@ st.write("نظرة عامة على البيانات:")
 st.dataframe(df.head())
 
 # حساب عدد كل نوع من المشاعر
-sentiment_counts = df["التصنيف النهائي"].value_counts()
+sentiment_counts = df["التصنيف_النهائي"].value_counts()
 
 # عرض مخطط بياني
 st.write("### توزيع المشاعر")
