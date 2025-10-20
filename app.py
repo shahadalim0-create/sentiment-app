@@ -17,7 +17,7 @@ df["التصنيف_النهائي"] = df["التصنيف_النهائي"].replac
 
 # تصحيح اتجاه النص العربي في الرسم
 plt.rcParams['font.family'] = 'Arial'
-plt.rcParams['axes.unicode_minus'] = False})
+plt.rcParams['axes.unicode_minus'] = False
 # حساب عدد كل نوع من المشاعر
 sentiment_counts = df["التصنيف_النهائي"].value_counts()
 # عرض مخطط بياني
